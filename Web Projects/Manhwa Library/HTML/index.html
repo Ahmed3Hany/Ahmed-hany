@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>El-Manhwa</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">
+                    <img src="../Images/Logo.png" alt="El-Manhwa Logo" loading="lazy" class="logo-img rounded-circle">
+                    <h1 class="logo-title">El-Manhwa</h1>
+                </a>
+            </div>
+            <ul class="nav-links" id="navLinks1">
+                <li><a href="#home" class="active" onclick="">Home</a></li>
+                <li><a href="#about" class="" onclick="">About</a></li>
+                <li><a href="#shop" class="" onclick="">Our Books</a></li>
+                <li><a href="#footer" class="" onclick="">Contact Us</a></li>
+            </ul>
+            <ul class="nav-links" id="navLinks2">
+                <li><a href="#" class="cart-btn">Sign in</a></li>
+                <li><a href="#" class="cart-btn"><i class="fa-solid fa-cart-shopping buy-icon"></i><span>Cart</span></a></li>
+            </ul>
+            
+            <button class="collapse-btn" onclick="navShowBtn()"><i class="fa-solid fa-bars"></i></button> 
+        </nav>
+    </header>
+
+    <img class="body" src="../Images/body.jpg">
+    
+    <div class="black-bg">
+        <div class="container" id="body-container">
+            <hr id="home">
+            <div class="body-text">
+                <h1 class="body-title text-center">Welcome to My Manhwa Library</h1>
+                <p class=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima sapiente ullam fugiat omnis, alias dolor! Commodi blanditiis, possimus enim nostrum magni est ea, saepe harum eveniet odit eos repudiandae.</p>
+                <a class="shop-btn" href="#shop">Shop Now</a>
+            </div>
+            <hr id="about">
+            <div class="about-text">
+                <h1 class="about-title text-center">About</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima sapiente ullam fugiat omnis, alias dolor! Commodi blanditiis, possimus enim nostrum magni est ea, saepe harum eveniet odit eos repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minima sapiente ullam fugiat omnis, alias dolor! Commodi blanditiis, possimus enim nostrum magni est ea, saepe harum eveniet odit eos repudiandae.</p>
+            </div>
+            <hr id="shop">
+            <div class="book-store">
+                <div class="row">
+                    <div class="shop" id="shop">
+                        <h1 class="text-center">Book Store</h1>
+                    </div>
+                    <div class="col">
+                        <div class="book">
+                            <img src="../Images/Jujutsu_kaisen.jpg" loading="lazy" alt="book-img">
+                            <h2>Jujutsu kaisen</h2>
+                            <p>Price: <span>200$</span></p>
+                            <button class="btn btn-outline-light">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="book">
+                            <img src="../Images/One piece.jpg" loading="lazy" alt="book-img">
+                            <h2>One Piece</h2>
+                            <p>Price: <span>150$</span></p>
+                            <button class="btn btn-outline-light">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="book">
+                            <img src="../Images/Solo Leveling.jpg" loading="lazy" alt="book-img">
+                            <h2>Solo Leveling</h2>
+                            <p>Price: <span>300$</span></p>
+                            <button class="btn btn-outline-light">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="book">
+                            <img src="../Images/Overlord.jpg" loading="lazy" alt="book-img">
+                            <h2>Overlord</h2>
+                            <p>Price: <span>100$</span></p>
+                            <button class="btn btn-outline-light">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="show-more">Show More <i class="fa-solid fa-angles-down fa-bounce"></i></button>
+            </div>
+            <hr>
+        </div>
+    </div>  
+
+    
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 footer-logo">
+                    <img src="../Images/Logo.png" loading="lazy" alt="logo" class="rounded-circle">
+                    <h1 class="footer-title">El-Manhwa</h1>
+                </div>
+                <div class="col-lg-4 links">
+                    <h1>Quick Links</h1>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="#home" class="active" onclick="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#shop">Our Books</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 contact">
+                    <h1 class="">Contact Us</h1>
+                    <p class="">Phone: 1231299421 <br>Location: Lorem ipsum dolor sit amet consectetur</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap-5.3.7-dist/js/bootstrap.js"></script>
+    <script src="../JavaScript/javascript.js"></script>
+</body>
+</html>

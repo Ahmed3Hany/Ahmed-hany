@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media (max-width:768px){
+            div.moon{
+                width: 300px;
+                height: 300px;
+            }
+        }
+        
+        body{
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .moon{
+            background-color: black;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            position: relative;
+        }
+        .moon::before{
+            content: "";
+            background-color: white;
+            position: absolute;
+            display: block;
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            z-index: -1;
+            animation: 3.2s MoonAnime linear infinite alternate;
+        }
+
+        @keyframes MoonAnime{
+            0%{
+                transform: translateX(40px) scale(0.98);
+                box-shadow: none;
+            }
+
+            50%{
+                transform: translateX(0px, 0px) scale(1.02);
+                box-shadow: 0 0 0px #ffff, 0 0 80px 2px #ffff;
+            }
+
+            100%{
+                transform: translateX(-40px) scale(0.98);
+                box-shadow: none;
+            }
+        }
+    </style>
+    <title>Moon</title>
+</head>
+<body>
+    <div class="main">
+        <div class="moon" id="white"></div>
+    </div>
+</body>
+</html>
