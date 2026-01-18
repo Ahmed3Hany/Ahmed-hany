@@ -1,0 +1,184 @@
+@media (max-width:1281px){
+    @media (min-width:768px) {
+        .header{
+            position: static !important;
+        }
+    }
+
+    .welcome .welcome-body{
+        gap: 24px !important;
+    }
+
+    .welcome .welcome-img img{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .welcome-title h1{
+        font-size: 48px !important;
+    }
+    .welcome-title h2{
+        font-size: 24px !important;
+    }
+    .welcome-title h4{
+        font-size: 18px !important;
+    }
+
+    .welcome .welcome-body .social-btns{
+        gap: 12px !important;
+    }
+    .welcome .welcome-body .social-btns .social-link{
+        font-size: 22px !important;
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .welcome .welcome-body .welcome-btns a{
+        font-size: 16px !important;
+    }
+
+    .about-me .container .about-text{
+        font-size: 20px !important;
+    }
+
+    .about-me .container .about-me-boxes .box{
+        width: 350px !important;
+        height: 200px !important;
+    }
+    .about-me .container .about-me-boxes .box h1{
+        font-size: 32px !important;
+    }
+    .about-me .container .about-me-boxes .box h2{
+        font-size: 24px !important;
+    }
+
+    #robo{
+        display: none;
+    }
+}
+
+@media (max-width:800px){
+    .welcome{
+        flex-direction: column-reverse !important;
+    }
+    .welcome .welcome-body{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .welcome .welcome-body .welcome-title{
+        text-align: center !important;
+    }
+    .welcome .welcome-img img{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    
+    .welcome-title h1,
+    .welcome-title h2,
+    .welcome-title h4{
+        text-align: center !important;
+    }
+
+    .welcome .welcome-body .social-btns,
+    .welcome .welcome-body .welcome-btns{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width:768px) {
+    .header .navbar{
+        gap: 8px !important;
+        padding: 4px 0px !important;
+        flex-direction: column !important;
+    }
+    .header .navbar .inNav{
+        width: 100%;
+    }
+    .header .navbar .nav{
+        flex-direction: column !important;
+    }
+    .header .navbar .showing-nav{
+        display: block !important;
+    }
+
+    .about-me .container .about-text{
+        font-size: 16px !important;
+    }
+    .about-me .container .about-me-boxes .box{
+        width: 300px !important;
+        height: 175px !important;
+    }
+    .about-me .container .about-me-boxes .box h1{
+        font-size: 24px !important;
+    }
+    .about-me .container .about-me-boxes .box h2{
+        font-size: 20px !important;
+    }
+    
+    .skills h1{
+        font-size: 32px !important;
+    }
+    .skills h3{
+        font-size: 18px !important;
+    }
+    .skills .card{
+        width: 350px !important;
+        height: 500px !important;
+    }
+
+    .projects .card{
+        width: 300px !important;
+        height: 450px !important;
+    }
+    .projects .card img{
+        height: 150px !important;
+    }
+
+    .contact .content{
+        gap: 16px;
+    }
+    .contact .content,
+    .contact .content > div,
+    .contact .content .phoneData, 
+    .contact .content .copyrightData{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .contact .content .content1{
+        width: 100% !important;
+    }
+    .contact .content div form > div{
+        align-items: start !important;
+    }
+    .contact .content div form{
+        width: 75% !important;
+    }
+}
+
+@media (max-width:400px){
+    .welcome .welcome-img img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+@media (max-height:800px){
+    @media (min-height:768px) {
+        .header{
+            position: static !important;
+        }
+    }
+    .skills h1{
+        font-size: 32px !important;
+    }
+    .skills h3{
+        font-size: 18px !important;
+    }
+    .skills .card{
+        width: 350px !important;
+        height: 500px !important;
+    }
+}
